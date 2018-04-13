@@ -1,0 +1,62 @@
+body{
+	font-family: sans-serif;
+}
+
+#headbar{
+ background-color: orange;
+ color: white;
+ font-size: 2em;
+ padding-left: 5vw;
+ padding-right: 5vw;
+}
+
+footer{
+	clear: both;
+	background-color: orange;
+	text-align: center;
+	color: white;
+	padding-left: 5vw;
+	padding-right: 5vw;
+}
+
+main {
+ width: 80vw;
+ padding-top:1vh;
+ padding-bottom: 1vh;
+ padding-left: 5vw;
+ padding-right: 5vw;
+ color: black;
+ font-size: 1em;
+}
+
+main figure{
+ float: left;	
+}
+
+main img{
+ width: 30vw;
+ float: left;	
+}
+
+#navbar{
+  
+  font-size: 1em;
+  background-color: grey;
+  width: 100vw;
+  height: 3em;
+  
+  padding-right: 5vw;
+}
+
+#navbar li{
+  float: left;
+  padding-left: 2em;	
+  background-color: grey;
+  color: white;
+}
+
+#navbar ul{
+ padding-top: 1em;	
+ list-style-type: none;
+
+}
