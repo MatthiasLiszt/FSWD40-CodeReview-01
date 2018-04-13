@@ -5,7 +5,7 @@ body{
 #headbar{
  background-color: orange;
  color: white;
- font-size: 2em;
+ 
  padding-left: 5vw;
  padding-right: 5vw;
 }
@@ -35,7 +35,7 @@ main figure{
 
 main img{
  width: 30vw;
- float: left;	
+ 
 }
 
 #navbar{
@@ -59,4 +59,30 @@ main img{
  padding-top: 1em;	
  list-style-type: none;
 
+}
+
+#navbar li:hover {
+ color: yellow;	
+}
+
+#navbar li a{
+ color: white;
+ text-decoration: none;	
+}
+
+#navbar li a:hover{
+ color: yellow;
+}
+
+#navbar li:hover p{
+ display: block;	
+ background-color: grey;
+}
+
+#navbar li p{
+ display: none;
+}
+
+#secondPicturePair{
+ clear: both;	
 }
